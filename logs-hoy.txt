@@ -1,0 +1,632 @@
+﻿Retrieving logs for app my-node-api in org Mitsubishi Electric de M├®xico, S. A. de C. V._pro-mitsu-ulzqolew / space PRD as sapmelmex@melco.com.mx...
+
+   2026-07-29T12:47:06.23-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.157 ms
+   2026-07-29T12:47:36.25-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.170 ms
+   2026-07-29T12:48:06.25-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.291 ms
+   2026-07-29T12:48:36.28-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.208 ms
+   2026-07-29T12:49:06.30-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.206 ms
+   2026-07-29T12:49:36.33-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.171 ms
+   2026-07-29T12:50:06.33-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.201 ms
+   2026-07-29T12:50:36.35-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.197 ms
+   2026-07-29T12:51:06.38-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.177 ms
+   2026-07-29T12:51:36.40-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.176 ms
+   2026-07-29T12:52:06.40-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.188 ms
+   2026-07-29T12:52:36.43-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.213 ms
+   2026-07-29T12:53:06.45-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.170 ms
+   2026-07-29T12:53:36.47-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.216 ms
+   2026-07-29T12:54:06.48-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.162 ms
+   2026-07-29T12:54:36.50-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.199 ms
+   2026-07-29T12:55:06.53-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.181 ms
+   2026-07-29T12:55:36.55-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.176 ms
+   2026-07-29T12:56:06.55-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.184 ms
+   2026-07-29T12:56:36.58-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.160 ms
+   2026-07-29T12:57:06.60-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.169 ms
+   2026-07-29T12:57:36.60-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.174 ms
+   2026-07-29T12:58:03.90-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:58:03.903Z","written_at":"2026-07-29T18:58:03.903Z","written_ts":1785351483903}
+   2026-07-29T12:58:03.90-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET (CSRF) http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/?sap-client=400&sap-language=ES&%24format=json
+   2026-07-29T12:58:03.90-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:58:03.905Z","written_at":"2026-07-29T18:58:03.905Z","written_ts":1785351483905}
+   2026-07-29T12:58:03.90-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET (CSRF) http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/?sap-client=400&sap-language=ES&%24format=json
+   2026-07-29T12:58:04.09-0600 [APP/PROC/WEB/0] OUT [my-node-api] WRITE POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:58:04.09-0600 [APP/PROC/WEB/0] OUT [my-node-api] POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:58:04.09-0600 [APP/PROC/WEB/0] OUT [my-node-api] WRITE POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:58:04.09-0600 [APP/PROC/WEB/0] OUT [my-node-api] POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:58:06.32-0600 [APP/PROC/WEB/0] OUT POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet 201 445 - 2448.862 ms
+   2026-07-29T12:58:06.32-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:58:03.859670036Z] "POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet HTTP/2.0" 201 148 445 "-" "okhttp/4.12.0" "10.0.72.3:54292" "10.0.201.33:61102" x_forwarded_for:"200.68.183.13, 10.0.72.3" x_forwarded_proto:"https" vcap_request_id:"160f73bc-112d-4adb-4839-e5566dd27f52" response_time:2.463912 gorouter_time:0.000064 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001078 tls_time:0.009407 backend_time:2.463849 local_address:"10.0.65.8:18240" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"f91a3a1e-a575-427f-8070-2d1dffcf23e0-6A6A4D3B-7F93CE4" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.13" x_request_id:"-" x_b3_traceid:"160f73bc112d4adb4839e5566dd27f52" x_b3_spanid:"4839e5566dd27f52" x_b3_parentspanid:"-" b3:"160f73bc112d4adb4839e5566dd27f52-4839e5566dd27f52"
+   2026-07-29T12:58:06.36-0600 [APP/PROC/WEB/0] OUT POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet 400 803 - 2489.718 ms
+   2026-07-29T12:58:06.36-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:58:03.861364739Z] "POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet HTTP/2.0" 400 148 803 "-" "okhttp/4.12.0" "10.0.72.3:45126" "10.0.201.33:61102" x_forwarded_for:"200.68.183.13, 10.0.72.3" x_forwarded_proto:"https" vcap_request_id:"ea28ca19-ffd8-4753-6eb2-3d9986bd77c1" response_time:2.500915 gorouter_time:0.000100 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000950 tls_time:0.007433 backend_time:2.500815 local_address:"10.0.65.9:54916" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"f91a3a1e-a575-427f-8070-2d1dffcf23e0-6A6A4D3B-7F93CE3" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.13" x_request_id:"-" x_b3_traceid:"ea28ca19ffd847536eb23d9986bd77c1" x_b3_spanid:"6eb23d9986bd77c1" x_b3_parentspanid:"-" b3:"ea28ca19ffd847536eb23d9986bd77c1-6eb23d9986bd77c1"
+   2026-07-29T12:58:06.60-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.197 ms
+   2026-07-29T12:58:36.63-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.218 ms
+   2026-07-29T12:58:46.79-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:58:46.794Z","written_at":"2026-07-29T18:58:46.794Z","written_ts":1785351526794}
+   2026-07-29T12:58:46.79-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET (CSRF) http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/?sap-client=400&sap-language=ES&%24format=json
+   2026-07-29T12:58:46.93-0600 [APP/PROC/WEB/0] OUT [my-node-api] WRITE POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:58:46.93-0600 [APP/PROC/WEB/0] OUT [my-node-api] POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:58:49.10-0600 [APP/PROC/WEB/0] OUT POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet 201 445 - 2358.335 ms
+   2026-07-29T12:58:49.11-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:58:46.739649134Z] "POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet HTTP/2.0" 201 148 445 "-" "okhttp/4.12.0" "10.0.72.3:38178" "10.0.201.33:61102" x_forwarded_for:"200.68.183.13, 10.0.72.3" x_forwarded_proto:"https" vcap_request_id:"1f65c82d-8564-4e8e-6029-05a13e0943f2" response_time:2.370574 gorouter_time:0.000070 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001146 tls_time:0.008684 backend_time:2.370504 local_address:"10.0.65.8:64876" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"f91a3a1e-a575-427f-8070-2d1dffcf23e0-6A6A4D3B-7F96598" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.13" x_request_id:"-" x_b3_traceid:"1f65c82d85644e8e602905a13e0943f2" x_b3_spanid:"602905a13e0943f2" x_b3_parentspanid:"-" b3:"1f65c82d85644e8e602905a13e0943f2-602905a13e0943f2"
+   2026-07-29T12:59:06.65-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.167 ms
+   2026-07-29T12:59:36.68-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.170 ms
+   2026-07-29T12:59:44.66-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:44.66-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:44.66-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:44.66-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:44.66-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:44.66-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:44.76-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:44.766Z","written_at":"2026-07-29T18:59:44.766Z","written_ts":1785351584766}
+   2026-07-29T12:59:44.76-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZSD_CATALOGOS_SRV/StatusWorkOrderSet?%24filter=Stsma+eq+%27CS000001%27&%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:45.18-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet?%24filter=StartDate+ge+datetime%272026-07-21T00%3A00%3A00%27+and+FinishDate+le+datetime%272026-08-06T23%3A59%3A59%27+and+Userstatus+eq+%27fgarciat%40melco.com.mx%27&%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:45.18-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] user = fgarciat@melco.com.mx
+   2026-07-29T12:59:45.18-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] mode = range
+   2026-07-29T12:59:45.18-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] $filter = StartDate ge datetime'2026-07-21T00:00:00' and FinishDate le datetime'2026-08-06T23:59:59' and Userstatus eq 'fgarciat@melco.com.mx'
+   2026-07-29T12:59:45.69-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:45.696Z","written_at":"2026-07-29T18:59:45.696Z","written_ts":1785351585696}
+   2026-07-29T12:59:45.69-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET (CSRF) http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/?sap-client=400&sap-language=ES&%24format=json
+   2026-07-29T12:59:46.07-0600 [APP/PROC/WEB/0] OUT [my-node-api] WRITE POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:59:46.07-0600 [APP/PROC/WEB/0] OUT [my-node-api] POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:59:48.51-0600 [APP/PROC/WEB/0] OUT POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet 201 448 - 2854.506 ms
+   2026-07-29T12:59:48.51-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:45.647133767Z] "POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet HTTP/2.0" 201 151 448 "-" "okhttp/4.12.0" "10.0.72.0:43958" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"e21b5208-a3be-44b2-68e9-b4d85bf419bd" response_time:2.871345 gorouter_time:0.000070 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001080 tls_time:0.012997 backend_time:2.871275 local_address:"10.0.65.9:48356" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA0-85B7351" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"e21b5208a3be44b268e9b4d85bf419bd" x_b3_spanid:"68e9b4d85bf419bd" x_b3_parentspanid:"-" b3:"e21b5208a3be44b268e9b4d85bf419bd-68e9b4d85bf419bd"
+   2026-07-29T12:59:50.93-0600 [APP/PROC/WEB/0] OUT GET /api/ordenes/sap/list?start=2026-07-21&end=2026-08-06&mode=range&user=fgarciat%40melco.com.mx 200 9525 - 6560.507 ms
+   2026-07-29T12:59:50.94-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:44.366112945Z] "GET /api/ordenes/sap/list?start=2026-07-21&end=2026-08-06&mode=range&user=fgarciat%40melco.com.mx HTTP/2.0" 200 0 9525 "-" "okhttp/4.12.0" "10.0.72.0:32302" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"fa97ce7c-3924-490a-471b-d74a9e94039a" response_time:6.575341 gorouter_time:0.000067 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001031 tls_time:0.007968 backend_time:6.575274 local_address:"10.0.65.8:56700" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA0-85B720D" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"fa97ce7c3924490a471bd74a9e94039a" x_b3_spanid:"471bd74a9e94039a" x_b3_parentspanid:"-" b3:"fa97ce7c3924490a471bd74a9e94039a-471bd74a9e94039a"
+   2026-07-29T12:59:51.67-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:51.671Z","written_at":"2026-07-29T18:59:51.671Z","written_ts":1785351591671}
+   2026-07-29T12:59:51.67-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZSD_CATALOGOS_SRV/StatusWorkOrderSet?%24filter=Stsma+eq+%27CS000001%27&%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:51.83-0600 [APP/PROC/WEB/0] OUT GET /api/odata/ZSD_CATALOGOS_SRV/StatusWorkOrderSet?$filter=Stsma%20eq%20%27CS000001%27&$format=json 304 - - 197.626 ms
+   2026-07-29T12:59:51.84-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:51.638101527Z] "GET /api/odata/ZSD_CATALOGOS_SRV/StatusWorkOrderSet?$filter=Stsma%20eq%20%27CS000001%27&$format=json HTTP/2.0" 304 0 0 "-" "okhttp/4.12.0" "10.0.72.0:21136" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"5ca38083-0f9a-4e3c-676c-3c6c58b131f2" response_time:0.202359 gorouter_time:0.000082 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.202277 local_address:"10.0.65.8:56700" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA1-85B7AA8" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"5ca380830f9a4e3c676c3c6c58b131f2" x_b3_spanid:"676c3c6c58b131f2" x_b3_parentspanid:"-" b3:"5ca380830f9a4e3c676c3c6c58b131f2-676c3c6c58b131f2"
+   2026-07-29T12:59:52.02-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:52.02-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:52.02-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:52.02-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:52.02-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:52.02-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:52.05-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:52.05-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:52.05-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:52.05-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:52.05-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:52.05-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:52.06-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:52.061Z","written_at":"2026-07-29T18:59:52.061Z","written_ts":1785351592061}
+   2026-07-29T12:59:52.06-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet?%24filter=StartDate+ge+datetime%272026-07-29T00%3A00%3A00%27+and+FinishDate+le+datetime%272026-07-29T23%3A59%3A59%27+and+Userstatus+eq+%27fgarciat%40melco.com.mx%27&%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:52.06-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] user = fgarciat@melco.com.mx
+   2026-07-29T12:59:52.06-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] mode = range
+   2026-07-29T12:59:52.06-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] $filter = StartDate ge datetime'2026-07-29T00:00:00' and FinishDate le datetime'2026-07-29T23:59:59' and Userstatus eq 'fgarciat@melco.com.mx'
+   2026-07-29T12:59:52.07-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:52.07-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:52.07-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:52.07-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:52.07-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:52.07-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:52.08-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:52.082Z","written_at":"2026-07-29T18:59:52.082Z","written_ts":1785351592082}
+   2026-07-29T12:59:52.08-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:52.08-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:52.08-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:52.08-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:52.08-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:52.08-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:52.11-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:52.110Z","written_at":"2026-07-29T18:59:52.110Z","written_ts":1785351592110}
+   2026-07-29T12:59:52.11-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:52.119Z","written_at":"2026-07-29T18:59:52.119Z","written_ts":1785351592119}
+   2026-07-29T12:59:52.11-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet?%24filter=StartDate+ge+datetime%272026-07-29T00%3A00%3A00%27+and+FinishDate+le+datetime%272026-07-29T23%3A59%3A59%27+and+Userstatus+eq+%27fgarciat%40melco.com.mx%27&%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:52.11-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] user = fgarciat@melco.com.mx
+   2026-07-29T12:59:52.11-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] mode = range
+   2026-07-29T12:59:52.11-0600 [APP/PROC/WEB/0] OUT [ORDENES][LIST] $filter = StartDate ge datetime'2026-07-29T00:00:00' and FinishDate le datetime'2026-07-29T23:59:59' and Userstatus eq 'fgarciat@melco.com.mx'
+   2026-07-29T12:59:52.26-0600 [APP/PROC/WEB/0] OUT GET /api/aviso-averia/catalogos/circunstancia?catalogo=S 304 - - 467.174 ms
+   2026-07-29T12:59:52.26-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:51.788794170Z] "GET /api/aviso-averia/catalogos/circunstancia?catalogo=S HTTP/2.0" 304 0 0 "-" "okhttp/4.12.0" "10.0.72.0:21136" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"a64b8129-1659-478e-7676-5afa4ae68804" response_time:0.478038 gorouter_time:0.000082 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000957 tls_time:0.007619 backend_time:0.477956 local_address:"10.0.65.8:40754" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA7-85B7AC9" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"a64b81291659478e76765afa4ae68804" x_b3_spanid:"76765afa4ae68804" x_b3_parentspanid:"-" b3:"a64b81291659478e76765afa4ae68804-76765afa4ae68804"
+   2026-07-29T12:59:52.26-0600 [APP/PROC/WEB/0] OUT GET /api/aviso-averia/catalogos/circunstancia?catalogo=R 304 - - 466.738 ms
+   2026-07-29T12:59:52.26-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:51.788807789Z] "GET /api/aviso-averia/catalogos/circunstancia?catalogo=R HTTP/2.0" 304 0 0 "-" "okhttp/4.12.0" "10.0.72.0:15726" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"f7cce9f5-440f-4abd-5252-f6f8ecb5e9c8" response_time:0.479789 gorouter_time:0.000082 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001038 tls_time:0.009492 backend_time:0.479707 local_address:"10.0.65.9:13632" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA7-85B7AC8" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"f7cce9f5440f4abd5252f6f8ecb5e9c8" x_b3_spanid:"5252f6f8ecb5e9c8" x_b3_parentspanid:"-" b3:"f7cce9f5440f4abd5252f6f8ecb5e9c8-5252f6f8ecb5e9c8"
+   2026-07-29T12:59:52.28-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:52.28-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:52.28-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:52.28-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:52.28-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:52.28-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:52.32-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:52.325Z","written_at":"2026-07-29T18:59:52.325Z","written_ts":1785351592325}
+   2026-07-29T12:59:52.48-0600 [APP/PROC/WEB/0] OUT GET /api/aviso-averia/catalogos/circunstancia?catalogo=T 304 - - 500.687 ms
+   2026-07-29T12:59:52.48-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:51.976164057Z] "GET /api/aviso-averia/catalogos/circunstancia?catalogo=T HTTP/2.0" 304 0 0 "-" "okhttp/4.12.0" "10.0.72.0:15726" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"59a9b033-2503-40ac-4fec-e05e8642952d" response_time:0.513628 gorouter_time:0.000069 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001120 tls_time:0.009769 backend_time:0.513559 local_address:"10.0.65.9:13642" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA7-85B7B0D" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"59a9b033250340ac4fece05e8642952d" x_b3_spanid:"4fece05e8642952d" x_b3_parentspanid:"-" b3:"59a9b033250340ac4fece05e8642952d-4fece05e8642952d"
+   2026-07-29T12:59:54.25-0600 [APP/PROC/WEB/0] OUT GET /api/ordenes/sap/list?start=2026-07-29&end=2026-07-29&mode=range&user=fgarciat%40melco.com.mx 200 784 - 2464.719 ms
+   2026-07-29T12:59:54.25-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:51.788787658Z] "GET /api/ordenes/sap/list?start=2026-07-29&end=2026-07-29&mode=range&user=fgarciat%40melco.com.mx HTTP/2.0" 200 0 784 "-" "okhttp/4.12.0" "10.0.72.0:15726" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"12f41517-a395-4fba-6b5a-160a9ee0b3fe" response_time:2.466817 gorouter_time:0.000097 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:2.466720 local_address:"10.0.65.9:48356" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA7-85B7AC6" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"12f41517a3954fba6b5a160a9ee0b3fe" x_b3_spanid:"6b5a160a9ee0b3fe" x_b3_parentspanid:"-" b3:"12f41517a3954fba6b5a160a9ee0b3fe-6b5a160a9ee0b3fe"
+   2026-07-29T12:59:54.35-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:54.352Z","written_at":"2026-07-29T18:59:54.352Z","written_ts":1785351594352}
+   2026-07-29T12:59:54.35-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET (CSRF) http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/?sap-client=400&sap-language=ES&%24format=json
+   2026-07-29T12:59:54.50-0600 [APP/PROC/WEB/0] OUT [my-node-api] WRITE POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:59:54.50-0600 [APP/PROC/WEB/0] OUT [my-node-api] POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T12:59:54.78-0600 [APP/PROC/WEB/0] OUT GET /api/ordenes/sap/list?start=2026-07-29&end=2026-07-29&mode=range&user=fgarciat%40melco.com.mx 200 784 - 2977.936 ms
+   2026-07-29T12:59:54.78-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:51.788773209Z] "GET /api/ordenes/sap/list?start=2026-07-29&end=2026-07-29&mode=range&user=fgarciat%40melco.com.mx HTTP/2.0" 200 0 784 "-" "okhttp/4.12.0" "10.0.72.0:21136" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"17961503-c5f7-4b6c-7da1-3cee37bbdcac" response_time:2.997144 gorouter_time:0.000065 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.001061 tls_time:0.015474 backend_time:2.997079 local_address:"10.0.65.8:40748" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA7-85B7AC7" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"17961503c5f74b6c7da13cee37bbdcac" x_b3_spanid:"7da13cee37bbdcac" x_b3_parentspanid:"-" b3:"17961503c5f74b6c7da13cee37bbdcac-7da13cee37bbdcac"
+   2026-07-29T12:59:55.02-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:55.021Z","written_at":"2026-07-29T18:59:55.021Z","written_ts":1785351595021}
+   2026-07-29T12:59:55.02-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')?%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:55.14-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:55.140Z","written_at":"2026-07-29T18:59:55.140Z","written_ts":1785351595140}
+   2026-07-29T12:59:55.14-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')?%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:55.33-0600 [APP/PROC/WEB/0] OUT GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')?$format=json 200 4250 - 345.716 ms
+   2026-07-29T12:59:55.33-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:54.990259101Z] "GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')?$format=json HTTP/2.0" 200 0 4250 "-" "okhttp/4.12.0" "10.0.72.0:43974" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"06b72e02-0d57-4745-7430-d56d0c32a16c" response_time:0.347538 gorouter_time:0.000083 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.347456 local_address:"10.0.65.9:48356" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DA7-85B7E54" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"06b72e020d5747457430d56d0c32a16c" x_b3_spanid:"7430d56d0c32a16c" x_b3_parentspanid:"-" b3:"06b72e020d5747457430d56d0c32a16c-7430d56d0c32a16c"
+   2026-07-29T12:59:55.44-0600 [APP/PROC/WEB/0] OUT GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')?$format=json 200 4250 - 340.286 ms
+   2026-07-29T12:59:55.45-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:55.105668161Z] "GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')?$format=json HTTP/2.0" 200 0 4250 "-" "okhttp/4.12.0" "10.0.72.0:43974" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"078e3133-954c-4ab8-4776-2ec3105931c9" response_time:0.347219 gorouter_time:0.000079 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.347140 local_address:"10.0.65.9:13642" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAA-85B7E70" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"078e3133954c4ab847762ec3105931c9" x_b3_spanid:"47762ec3105931c9" x_b3_parentspanid:"-" b3:"078e3133954c4ab847762ec3105931c9-47762ec3105931c9"
+   2026-07-29T12:59:55.56-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:55.562Z","written_at":"2026-07-29T18:59:55.562Z","written_ts":1785351595562}
+   2026-07-29T12:59:55.56-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToAddresses?%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:55.73-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:55.732Z","written_at":"2026-07-29T18:59:55.732Z","written_ts":1785351595732}
+   2026-07-29T12:59:55.73-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToAddresses?%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:55.86-0600 [APP/PROC/WEB/0] OUT GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToAddresses?$format=json 200 2185 - 335.414 ms
+   2026-07-29T12:59:55.86-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:55.528664702Z] "GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToAddresses?$format=json HTTP/2.0" 200 0 2185 "-" "okhttp/4.12.0" "10.0.72.0:43974" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"67526a09-7302-4010-4782-ecaacc3f648b" response_time:0.337101 gorouter_time:0.000061 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.337040 local_address:"10.0.65.9:13642" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAB-85B7ED0" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"67526a09730240104782ecaacc3f648b" x_b3_spanid:"4782ecaacc3f648b" x_b3_parentspanid:"-" b3:"67526a09730240104782ecaacc3f648b-4782ecaacc3f648b"
+   2026-07-29T12:59:56.03-0600 [APP/PROC/WEB/0] OUT GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToAddresses?$format=json 200 2185 - 341.339 ms
+   2026-07-29T12:59:56.03-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:55.694091081Z] "GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToAddresses?$format=json HTTP/2.0" 200 0 2185 "-" "okhttp/4.12.0" "10.0.72.0:46456" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"76d87878-496e-48bb-56fb-1d4b08a8d254" response_time:0.343012 gorouter_time:0.000077 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.342935 local_address:"10.0.65.8:40748" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAB-85B7F03" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"76d87878496e48bb56fb1d4b08a8d254" x_b3_spanid:"56fb1d4b08a8d254" x_b3_parentspanid:"-" b3:"76d87878496e48bb56fb1d4b08a8d254-56fb1d4b08a8d254"
+   2026-07-29T12:59:56.06-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:56.060Z","written_at":"2026-07-29T18:59:56.060Z","written_ts":1785351596060}
+   2026-07-29T12:59:56.06-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToPartners?%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:56.28-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:56.281Z","written_at":"2026-07-29T18:59:56.281Z","written_ts":1785351596281}
+   2026-07-29T12:59:56.28-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToPartners?%24format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:56.39-0600 [APP/PROC/WEB/0] OUT GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToPartners?$format=json 200 2000 - 358.985 ms
+   2026-07-29T12:59:56.39-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:56.029324045Z] "GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToPartners?$format=json HTTP/2.0" 200 0 2000 "-" "okhttp/4.12.0" "10.0.72.0:46456" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"c530514f-97ca-4b53-5975-a1926ef31739" response_time:0.362026 gorouter_time:0.000107 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.361920 local_address:"10.0.65.8:56700" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAB-85B7F4A" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"c530514f97ca4b535975a1926ef31739" x_b3_spanid:"5975a1926ef31739" x_b3_parentspanid:"-" b3:"c530514f97ca4b535975a1926ef31739-5975a1926ef31739"
+   2026-07-29T12:59:56.58-0600 [APP/PROC/WEB/0] OUT GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToPartners?$format=json 200 2000 - 356.018 ms
+   2026-07-29T12:59:56.58-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:56.224147490Z] "GET /api/odata/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToPartners?$format=json HTTP/2.0" 200 0 2000 "-" "okhttp/4.12.0" "10.0.72.0:45294" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"087046fb-d8e1-4cfe-47f9-e85fb15d6918" response_time:0.357772 gorouter_time:0.000064 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.357708 local_address:"10.0.65.9:13642" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAC-85B7F97" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"087046fbd8e14cfe47f9e85fb15d6918" x_b3_spanid:"47f9e85fb15d6918" x_b3_parentspanid:"-" b3:"087046fbd8e14cfe47f9e85fb15d6918-47f9e85fb15d6918"
+   2026-07-29T12:59:56.66-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:56.66-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:56.66-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:56.66-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:56.66-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:56.66-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:56.697Z","written_at":"2026-07-29T18:59:56.697Z","written_ts":1785351596697}
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT ­ƒƒª [OPS][GET] /sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToOperations?$format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT ­ƒƒª [OPS][meta] {
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT "sapClient": "400",
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT "sapLang": "ES",
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT "modo": "NAV_FROM_HEADER",
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT "orderid": "000040218930"
+   2026-07-29T12:59:56.69-0600 [APP/PROC/WEB/0] OUT }
+   2026-07-29T12:59:56.70-0600 [APP/PROC/WEB/0] OUT POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet 201 445 - 2384.416 ms
+   2026-07-29T12:59:56.71-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:54.320231332Z] "POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet HTTP/2.0" 201 148 445 "-" "okhttp/4.12.0" "10.0.72.3:34484" "10.0.201.33:61102" x_forwarded_for:"200.68.183.164, 10.0.72.3" x_forwarded_proto:"https" vcap_request_id:"b68acc6a-6681-4df6-503a-543690d60769" response_time:2.390948 gorouter_time:0.000090 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:2.390858 local_address:"10.0.65.8:40754" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"f91a3a1e-a575-427f-8070-2d1dffcf23e0-6A6A4DAA-7F9A822" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.164" x_request_id:"-" x_b3_traceid:"b68acc6a66814df6503a543690d60769" x_b3_spanid:"503a543690d60769" x_b3_parentspanid:"-" b3:"b68acc6a66814df6503a543690d60769-503a543690d60769"
+   2026-07-29T12:59:56.85-0600 [APP/PROC/WEB/0] OUT [AZURE] tid: 12326ef5-6c3e-48e8-a6ff-2661c6efcfb1
+   2026-07-29T12:59:56.85-0600 [APP/PROC/WEB/0] OUT [AZURE] iss: https://sts.windows.net/12326ef5-6c3e-48e8-a6ff-2661c6efcfb1/
+   2026-07-29T12:59:56.85-0600 [APP/PROC/WEB/0] OUT [AZURE] aud: api://3478f3f9-66a8-46f1-adf8-078641a31024/access_as_user
+   2026-07-29T12:59:56.85-0600 [APP/PROC/WEB/0] OUT [AZURE] scp: AccessMitsuApp
+   2026-07-29T12:59:56.85-0600 [APP/PROC/WEB/0] OUT [AZURE] roles: [ 'tecnico' ]
+   2026-07-29T12:59:56.85-0600 [APP/PROC/WEB/0] OUT [AZURE] preferred_username: undefined
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T18:59:56.885Z","written_at":"2026-07-29T18:59:56.885Z","written_ts":1785351596885}
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT ­ƒƒª [OPS][GET] /sap/opu/odata/sap/ZCS_GET_WORKORDER_SRV/WorkOrderHeaderSet('000040218930')/ToOperations?$format=json&sap-client=400&sap-language=ES
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT ­ƒƒª [OPS][meta] {
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT "sapClient": "400",
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT "sapLang": "ES",
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT "modo": "NAV_FROM_HEADER",
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT "orderid": "000040218930"
+   2026-07-29T12:59:56.88-0600 [APP/PROC/WEB/0] OUT }
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT ­ƒƒ® [OPS][OK] filas=90 modo=NAV_FROM_HEADER
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT [OPS][FIRST_KEYS] [
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "__metadata",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Strttimcon",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Fintimcons",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "EarlSchedStartTime",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "EarlSchedFinTime",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LateSchedStartTime",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LateSchedFinTime",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ActStartTime",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ActEndTime",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FcstFinTime",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Activity",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SubActivity",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ControlKey",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "WorkCntr",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Plant",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "StandardTextKey",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Description",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Langu",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LanguIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Wagetype",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Suitability",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Wagegroup",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SortFld",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "VendorNo",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "BaseUom",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "BaseUomIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "CostElement",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Currency",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "CurrencyIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "InfoRec",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PurchOrg",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PurGroup",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MatlGroup",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Agreement",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "AgmtItem",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PreqName",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Trackingno",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "CalcKey",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Acttype",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Systcond",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Assembly",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "IntDistr",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "GrRcpt",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "UnloadPt",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PersNo",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FwOrder",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OrderItem",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "DurationNormalUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "DurationNormalUnitIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ConstraintTypeStart",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ConstraintTypeFinish",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "UnWork",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "UnWorkIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MrpRelevant",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FieldKey",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr03",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use04",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use04Iso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use05",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use05Iso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use06",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use06Iso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use07",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Use07Iso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ConfNo",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PreqNo",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PreqItem",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SystemStatusText",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "AssemblyExternal",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "AssemblyGuid",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "AssemblyVersion",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Equipment",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FunctLoc",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "NotifNo",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "StartPoint",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "EndPoint",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LinearLength",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LinearUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LinearUnitIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FirstOffsetTypeCode",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FirstOffsetValue",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FirstOffsetUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FirstOffsetUnitIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SecondOffsetTypeCode",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SecondOffsetValue",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SecondOffsetUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SecondOffsetUnitIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FirstOffsetTypeCodeName",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "SecondOffsetTypeCodeName",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MarkerStartPoint",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceStartPoint",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MarkerEndPoint",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceEndPoint",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceUnitIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PckgNo",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "CompCode",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "MaintenanceActivityType",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "BusArea",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "WbsElem",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ProfitCtr",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "CstgSheet",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OverheadKey",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Taxjurcode",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Objectclass",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FuncArea",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OffsetStartUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OffsetStartUnitIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OffsetEndUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OffsetEndUnitIso",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "StatProf",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FieldUserStatus",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "AssemblyLong",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "NoOfTimeTickets",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Quantity",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Price",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PriceUnit",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PlndDelry",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "DurationNormal",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "WorkActivity",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Execfactor",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr04",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr05",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr06",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr07",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "WorkActual",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FreeBuffer",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "TotalBuffer",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "WorkForecast",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OffsetStart",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "OffsetEnd",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "StartCons",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FinConstr",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr08",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr09",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "EarlSchedStartDate",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "EarlSchedFinDate",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LateSchedStartDate",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "LateSchedFinDate",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ActStartDate",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ActEndDate",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "FcstFinDate",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "NumberOfCapacities",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "PercentOfWork",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr10",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr11",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Complete",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "ToHeader"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT ]
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT [OPS][FIRST_Usr02_CANDIDATES] {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT }
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT ­ƒƒ® [OPS][PREVIEW] combos Usr00/Usr01/Usr02 (m├íx 12): [
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "1",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "2",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "3",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "4",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "5",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "6",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "7",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "8",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "10",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "10",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "MAQUINA DE TRACCION",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "11",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr00": "MAQUINA DE TRACCION",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr01": "12",
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT }
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT ]
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT ­ƒƒ® [OPS][NORMALIZED] ops=90 (NAV)
+   2026-07-29T12:59:56.99-0600 [APP/PROC/WEB/0] OUT GET /api/operaciones/sap/000040218930 200 333510 - 445.401 ms
+   2026-07-29T12:59:57.00-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:56.552036808Z] "GET /api/operaciones/sap/000040218930 HTTP/2.0" 200 0 333510 "-" "okhttp/4.12.0" "10.0.72.0:45294" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"b9a3e9cb-9a08-47ab-497f-9a90dd04e3a8" response_time:0.452221 gorouter_time:0.000080 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.452141 local_address:"10.0.65.9:48356" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAC-85B7FD8" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"b9a3e9cb9a0847ab497f9a90dd04e3a8" x_b3_spanid:"497f9a90dd04e3a8" x_b3_parentspanid:"-" b3:"b9a3e9cb9a0847ab497f9a90dd04e3a8-497f9a90dd04e3a8"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT ­ƒƒ® [OPS][OK] filas=90 modo=NAV_FROM_HEADER
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT [OPS][FIRST_KEYS] [
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "__metadata",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Strttimcon",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Fintimcons",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "EarlSchedStartTime",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "EarlSchedFinTime",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LateSchedStartTime",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LateSchedFinTime",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ActStartTime",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ActEndTime",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FcstFinTime",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Activity",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SubActivity",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ControlKey",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "WorkCntr",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Plant",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "StandardTextKey",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Description",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Langu",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LanguIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Wagetype",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Suitability",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Wagegroup",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SortFld",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "VendorNo",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "BaseUom",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "BaseUomIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "CostElement",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Currency",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "CurrencyIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "InfoRec",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PurchOrg",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PurGroup",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MatlGroup",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Agreement",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "AgmtItem",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PreqName",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Trackingno",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "CalcKey",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Acttype",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Systcond",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Assembly",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "IntDistr",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "GrRcpt",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "UnloadPt",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PersNo",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FwOrder",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OrderItem",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "DurationNormalUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "DurationNormalUnitIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ConstraintTypeStart",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ConstraintTypeFinish",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "UnWork",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "UnWorkIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MrpRelevant",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FieldKey",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr03",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use04",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use04Iso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use05",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use05Iso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use06",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use06Iso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use07",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Use07Iso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ConfNo",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PreqNo",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PreqItem",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SystemStatusText",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "AssemblyExternal",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "AssemblyGuid",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "AssemblyVersion",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Equipment",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FunctLoc",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "NotifNo",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "StartPoint",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "EndPoint",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LinearLength",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LinearUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LinearUnitIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FirstOffsetTypeCode",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FirstOffsetValue",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FirstOffsetUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FirstOffsetUnitIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SecondOffsetTypeCode",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SecondOffsetValue",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SecondOffsetUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SecondOffsetUnitIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FirstOffsetTypeCodeName",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "SecondOffsetTypeCodeName",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MarkerStartPoint",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceStartPoint",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MarkerEndPoint",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceEndPoint",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MarkerDistanceUnitIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PckgNo",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "CompCode",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "MaintenanceActivityType",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "BusArea",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "WbsElem",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ProfitCtr",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "CstgSheet",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OverheadKey",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Taxjurcode",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Objectclass",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FuncArea",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OffsetStartUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OffsetStartUnitIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OffsetEndUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OffsetEndUnitIso",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "StatProf",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FieldUserStatus",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "AssemblyLong",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "NoOfTimeTickets",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Quantity",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Price",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PriceUnit",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PlndDelry",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "DurationNormal",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "WorkActivity",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Execfactor",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr04",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr05",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr06",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr07",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "WorkActual",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FreeBuffer",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "TotalBuffer",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "WorkForecast",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OffsetStart",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "OffsetEnd",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "StartCons",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FinConstr",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr08",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr09",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "EarlSchedStartDate",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "EarlSchedFinDate",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LateSchedStartDate",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "LateSchedFinDate",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ActStartDate",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ActEndDate",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "FcstFinDate",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "NumberOfCapacities",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "PercentOfWork",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr10",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr11",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Complete",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "ToHeader"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT ]
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT [OPS][FIRST_Usr02_CANDIDATES] {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT }
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT ­ƒƒ® [OPS][PREVIEW] combos Usr00/Usr01/Usr02 (m├íx 12): [
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "1",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "2",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "3",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "4",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "5",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "6",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "7",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "8",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "10",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "CABINA"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "REVISION PERMANENTE",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "10",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "MAQUINA DE TRACCION",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "11",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT },
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT {
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr00": "MAQUINA DE TRACCION",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr01": "12",
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT "Usr02": "MAQUINAS"
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT }
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT ]
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT ­ƒƒ® [OPS][NORMALIZED] ops=90 (NAV)
+   2026-07-29T12:59:57.17-0600 [APP/PROC/WEB/0] OUT GET /api/operaciones/sap/000040218930 200 333510 - 445.533 ms
+   2026-07-29T12:59:57.18-0600 [RTR/0] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T18:59:56.732583914Z] "GET /api/operaciones/sap/000040218930 HTTP/2.0" 200 0 333510 "-" "okhttp/4.12.0" "10.0.72.0:21136" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"339344b6-97c5-42f9-50ad-cf6c2f49ced9" response_time:0.451872 gorouter_time:0.000069 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000000 tls_time:0.000000 backend_time:0.451804 local_address:"10.0.65.8:40754" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAC-85B8000" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"339344b697c542f950adcf6c2f49ced9" x_b3_spanid:"50adcf6c2f49ced9" x_b3_parentspanid:"-" b3:"339344b697c542f950adcf6c2f49ced9-50adcf6c2f49ced9"
+   2026-07-29T13:00:06.68-0600 [APP/PROC/WEB/0] OUT GET /health 200 6 - 0.193 ms
+   2026-07-29T13:00:21.91-0600 [APP/PROC/WEB/0] OUT {"custom_fields":{"messageContext":"connectivity-service","package":"connectivity"},"level":"warn","logger":"sap-cloud-sdk-logger","message":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","msg":"You are connecting to an On-Premise system using basic authentication. For productive usage Principal propagation is recommended.","timestamp":"2026-07-29T19:00:21.917Z","written_at":"2026-07-29T19:00:21.917Z","written_ts":1785351621917}
+   2026-07-29T13:00:21.91-0600 [APP/PROC/WEB/0] OUT [my-node-api] GET (CSRF) http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/?sap-client=400&sap-language=ES&%24format=json
+   2026-07-29T13:00:22.09-0600 [APP/PROC/WEB/0] OUT [my-node-api] WRITE POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T13:00:22.09-0600 [APP/PROC/WEB/0] OUT [my-node-api] POST http://melco-prod-01:8000/sap/opu/odata/sap/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet?sap-client=400&sap-language=ES
+   2026-07-29T13:00:24.31-0600 [APP/PROC/WEB/0] OUT POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet 201 448 - 2435.923 ms
+   2026-07-29T13:00:24.31-0600 [RTR/1] OUT my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com - [2026-07-29T19:00:21.863316969Z] "POST /api/odata/ZCS_GEOLOZACION_SRV/GeoLocalizacionSet HTTP/2.0" 201 151 448 "-" "okhttp/4.12.0" "10.0.72.0:53384" "10.0.201.33:61102" x_forwarded_for:"200.68.183.14, 10.0.72.0" x_forwarded_proto:"https" vcap_request_id:"445ec680-74b6-4757-71dd-f0c45cace4d6" response_time:2.447820 gorouter_time:0.000051 app_id:"8052b072-5aeb-4b6f-bd30-b540aeb50326" app_index:"0" instance_id:"2195f078-e2d9-43b9-65b4-1718" failed_attempts:0 failed_attempts_time:"-" dns_time:0.000000 dial_time:0.000911 tls_time:0.007571 backend_time:2.447769 local_address:"10.0.65.9:18336" x_cf_routererror:"-" x_correlationid:"-" tenantid:"-" sap_passport:"-" x_scp_request_id:"0b0a4297-76ec-4053-a3b2-aaa4f60e3645-6A6A4DAC-85B9DFC" x_cf_app_instance:"-" x_forwarded_host:"-" x_custom_host:"-" x_ssl_client:"-" x_ssl_client_session_id:"-" x_ssl_client_verify:"-" x_ssl_client_subject_dn:"-" x_ssl_client_subject_cn:"-" x_ssl_client_issuer_dn:"-" x_ssl_client_notbefore:"-" x_ssl_client_notafter:"-" x_cf_forwarded_url:"-" traceparent:"-" true_client_ip:"-" x_cf_true_client_ip:"200.68.183.14" x_request_id:"-" x_b3_traceid:"445ec68074b6475771ddf0c45cace4d6" x_b3_spanid:"71ddf0c45cace4d6" x_b3_parentspanid:"-" b3:"445ec68074b6475771ddf0c45cace4d6-71ddf0c45cace4d6"

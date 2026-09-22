@@ -1,0 +1,10 @@
+{
+  "authenticationMethod": "none",
+  "routes": [
+    {
+      "source": "^/api/(.*)$",
+      "target": "$1",
+      "destination": "onPremECC_PRO_APP"
+    }
+  ]
+}

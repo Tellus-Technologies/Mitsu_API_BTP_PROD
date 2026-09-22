@@ -1,0 +1,24 @@
+---
+applications:
+  - name: my-node-api
+    memory: 256M
+    buildpacks:
+      - nodejs_buildpack
+    command: npm start
+    default-route: false
+    routes:
+      - route: my-node-api-pro-01.cfapps.us10-001.hana.ondemand.com
+    health-check-type: http
+    health-check-http-endpoint: /health
+    env:
+      NODE_ENV: production
+      DEST_NAME: onPremECC_PRO_APP
+      SAP_CLIENT: "400"
+      SAP_LANGUAGE: "ES"
+      SAP_JWT_TRUST_ACL: '[{"clientid":"*","identityzone":"*"}]'
+      XS_APP_LOG_LEVEL: info
+      AZURE_TENANT_ID: "12326ef5-6c3e-48e8-a6ff-2661c6efcfb1"
+      AZURE_CLIENT_ID: "3478f3f9-66a8-46f1-adf8-078641a31024"
+    services:
+      - contractmanagementcontractmanagement-desti62b6e013
+      - contractmanagementcontractmanagement-xsuaa-service
